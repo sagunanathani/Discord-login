@@ -30,7 +30,7 @@ app.get('/api/auth/discord/redirect', async (req: Request, res: Response)=>{
             }
           );
           res.send ( response.data );  
-          console.log("response.data",response.data);
+          console.log("response.data-----------",response.data);
           
        } catch (err) {
         console.log ("error: ", err);
